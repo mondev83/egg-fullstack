@@ -52,14 +52,14 @@ public class Ejercicio11 {
                     salir = leer.next();
                     if ("S".equalsIgnoreCase(salir)) {
                         break;
-                    } else {
+                    } else if ("N".equalsIgnoreCase(salir)){
+                        salir="";
                         continue;
                     }
                 default:
                     System.out.println("No existe la opcion en el menu!");
             }
 
-        } while ("N".equalsIgnoreCase(salir));
-
+        } while ("".equals(salir));
     }
 }

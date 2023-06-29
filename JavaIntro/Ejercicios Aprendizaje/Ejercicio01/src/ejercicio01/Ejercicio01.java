@@ -25,7 +25,7 @@ public class Ejercicio01 {
 
         int num3 = num1 + num2;
 
-        System.out.println("La suma de los dos valores es: " + num3);
+        System.out.println("La suma de los dos valores es: " + num3);        
 
     }
 
